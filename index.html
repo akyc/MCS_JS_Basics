@@ -7,12 +7,75 @@
 <body>
 	<script>
 		//document.write(prompt('Введите код'));
-		let moneyWithYou = prompt('Cколько у вас с собой есть денег?'),
+		/* let moneyWithYou = prompt('Cколько у вас с собой есть денег?'),
 			applePayed = prompt('Cколько вы купили яблок?'),
 			breadPayed = prompt('Cколько вы купили батонов хлеба?'),
 			appleCost = parseFloat(applePayed) * parseFloat(prompt('Cколько стоит одно яблоко?')),
 			breadCost = parseFloat(breadPayed) * parseFloat(prompt('Cколько стоит один батон хлеба?'));
-		document.write(moneyWithYou >= appleCost + breadCost);
+		document.write(moneyWithYou >= appleCost + breadCost); */
+		
+		//ucFirst("вася") == "Вася";
+
+		/* function ucFirst(str){
+			let frstLetter = str[0].toLowerCase();
+			frstLetter += str.slice(1);
+			return frstLetter;
+		};
+
+		document.write(ucFirst("Вася")); */
+
+		//checkSpam('buy ViAgRA now') == true
+		//checkSpam('free xxxxx') == true
+		//checkSpam("innocent rabbit") == false
+		/* function checkSpam(str){
+			str = str.toLowerCase();
+			if (str.includes("xxx") || str.includes("viagra"))
+			{return true;} else {return false;}
+		};	
+		document.write(checkSpam('free xxxxx')); */
+		//truncate("Вот, что мне хотелось бы сказать на эту тему:", 20) = "Вот, что мне хотело…"
+		//truncate("Всем привет!", 20) = "Всем привет!"
+		/* function truncate(str, lngth){
+			if (str[lngth-1]){
+			return str.slice(0, lngth-1) + "...";
+		}else{
+			return str;
+		}
+		};
+		console.log(truncate("Вот, что мне хотелось бы сказать на эту тему:", 20)) */
+		
+		
+		
+		//alert( extractCurrencyValue('$120') === 120 ); // true
+		/* function extractCurrencyValue(str){
+			let answr = "";
+			for (let i = 0; i < str.length; i++){
+				if (str.codePointAt(i) > 47 && str.codePointAt(i) < 58){
+				answr += str[i];} else { answr = answr}
+			}
+			return answr;
+		}
+		console.log(extractCurrencyValue('adad-$1209')); */
+
+		/* console.log("" + 1 + 0); // 10
+		console.log("" - 1 + 0); // -1
+		console.log(true + false); // 1
+		console.log(6 / "3"); // 2
+		console.log("2" * "3"); // 6
+		console.log(4 + 5 + "px"); // 9px
+		console.log("$" + 4 + 5); // $45
+		console.log("4" - 2); // 2
+		console.log("4px" - 2); // NaN
+		console.log(7 / 0); //Infinity
+		console.log("  -9  " + 5); // -9 5
+		console.log("  -9  " - 5); // -14
+		console.log(null + 1); // 1
+		console.log(undefined + 1); // NaN
+		console.log(" \t \n" - 2); // -2 */
+		
+
+		
+
 	</script>
 </body>
 </html>
