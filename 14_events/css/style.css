@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+body{
+    background: lightgray;
+}
+
+p {
+    display: none;
+}
