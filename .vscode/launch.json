@@ -13,5 +13,6 @@
             ],
             "program": "${workspaceFolder}/09_switch/js/script.js"
         }
-    ]
+    ],
+    "esversion" : 6
 }
