@@ -5,9 +5,10 @@ const buttons = document.querySelectorAll('button');
 for (button of buttons){
     button.style.backgroundColor = 'blue';
 }
-for (var key in buttons){
-    buttons[key].style.backgroundColor = "red";
-}
+// for (key in buttons){
+//     buttons[key].style.backgroundColor = "red";
+// }
+console.log(count);
 let person = {
     name: 'Andrew',
     surname: 'Zyuzin',
